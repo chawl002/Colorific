@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)changeColor:(id)sender;
 
 @end
+
+
 
