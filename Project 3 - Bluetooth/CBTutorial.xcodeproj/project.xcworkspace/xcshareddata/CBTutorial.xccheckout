@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>92C13D9B-703B-48D5-8C1A-79C4FE038A91</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CBTutorial</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E42C464018248D1B1DF3E449086FF086A7EAA00A</key>
+		<string>https://github.com/chawl002/iOS-Practice.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Project 3 - Bluetooth/CBTutorial.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E42C464018248D1B1DF3E449086FF086A7EAA00A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chawl002/iOS-Practice.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E42C464018248D1B1DF3E449086FF086A7EAA00A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E42C464018248D1B1DF3E449086FF086A7EAA00A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-Practice</string>
+		</dict>
+	</array>
+</dict>
+</plist>

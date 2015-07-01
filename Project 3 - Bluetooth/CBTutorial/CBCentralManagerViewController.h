@@ -11,8 +11,14 @@
 
 #import "SERVICES.h"
 
-@interface CBCentralManagerViewController : UIViewController
+@interface CBCentralManagerViewController : UIViewController< CBCentralManagerDelegate, CBPeripheralDelegate>
 
 @property (strong, nonatomic) IBOutlet UITextView *textview;
+
+@property (strong, nonatomic) CBCentralManager *centralManager;
+@property (strong, nonatomic) CBPeripheral *discoveredPeripheral;
+
+//stores data that is shared between devices
+@property (strong, nonatomic) NSMutableData *data;
 
 @end
