@@ -14,7 +14,7 @@
 		7F6BF9881B61686100E46138 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F6BF9871B61686100E46138 /* Images.xcassets */; };
 		7F6BF98B1B61686100E46138 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F6BF9891B61686100E46138 /* LaunchScreen.xib */; };
 		7F6BF9971B61686100E46138 /* RatingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BF9961B61686100E46138 /* RatingsTests.m */; };
-		7F6BF9A11B61987900E46138 /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = 7F6BF9A01B61987900E46138 /* Icons */; };
+		7F76DD001B619C2900E70600 /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = 7F76DCFF1B619C2900E70600 /* Icons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		7F6BF9901B61686100E46138 /* RatingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6BF9951B61686100E46138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F6BF9961B61686100E46138 /* RatingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingsTests.m; sourceTree = "<group>"; };
-		7F6BF9A01B61987900E46138 /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Icons; path = Ratings/Images.xcassets/Icons; sourceTree = "<group>"; };
+		7F76DCFF1B619C2900E70600 /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Icons; path = Ratings/Icons; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +65,10 @@
 		7F6BF96E1B61686000E46138 = {
 			isa = PBXGroup;
 			children = (
+				7F76DCFF1B619C2900E70600 /* Icons */,
 				7F6BF9791B61686100E46138 /* Ratings */,
 				7F6BF9931B61686100E46138 /* RatingsTests */,
 				7F6BF9781B61686100E46138 /* Products */,
-				7F6BF9A01B61987900E46138 /* Icons */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,7 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F6BF9861B61686100E46138 /* Main.storyboard in Resources */,
-				7F6BF9A11B61987900E46138 /* Icons in Resources */,
+				7F76DD001B619C2900E70600 /* Icons in Resources */,
 				7F6BF98B1B61686100E46138 /* LaunchScreen.xib in Resources */,
 				7F6BF9881B61686100E46138 /* Images.xcassets in Resources */,
 			);
@@ -419,6 +419,7 @@
 				7F6BF99C1B61686100E46138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F6BF99D1B61686100E46138 /* Build configuration list for PBXNativeTarget "RatingsTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +428,7 @@
 				7F6BF99F1B61686100E46138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

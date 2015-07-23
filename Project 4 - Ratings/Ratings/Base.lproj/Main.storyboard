@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Gestures-->
         <scene sceneID="dV9-8B-38u">
             <objects>
                 <viewController id="aXn-ou-J8Q" sceneMemberID="viewController">
@@ -22,7 +22,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="OOx-s5-bxu"/>
+                    <navigationItem key="navigationItem" title="Gestures" id="OOx-s5-bxu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LWA-PD-XDu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -47,7 +47,7 @@
             </objects>
             <point key="canvasLocation" x="-172" y="353"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Players-->
         <scene sceneID="3TF-KF-xr1">
             <objects>
                 <tableViewController id="pDW-7h-f8M" sceneMemberID="viewController">
@@ -56,12 +56,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="eEP-dg-3XV">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlayerCell" textLabel="r0l-Lp-Nbp" detailTextLabel="eOX-D5-7GE" style="IBUITableViewCellStyleSubtitle" id="eEP-dg-3XV">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eEP-dg-3XV" id="NUU-Eg-Izi">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="r0l-Lp-Nbp">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eOX-D5-7GE">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -70,7 +84,7 @@
                             <outlet property="delegate" destination="pDW-7h-f8M" id="Rpl-sl-Tu2"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="xJe-vV-xdU"/>
+                    <navigationItem key="navigationItem" title="Players" id="xJe-vV-xdU"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h1f-7M-Bcs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
