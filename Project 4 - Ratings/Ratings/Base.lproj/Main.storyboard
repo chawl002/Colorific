@@ -90,11 +90,75 @@
                             <outlet property="delegate" destination="pDW-7h-f8M" id="Rpl-sl-Tu2"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Players" id="xJe-vV-xdU"/>
+                    <navigationItem key="navigationItem" title="Players" id="xJe-vV-xdU">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Fov-iQ-zo1">
+                            <connections>
+                                <segue destination="XpK-T9-ODV" kind="modal" identifier="AddPlayer" id="Bfs-45-NuR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h1f-7M-Bcs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="898" y="15"/>
+        </scene>
+        <!--Add Player-->
+        <scene sceneID="e4Q-Qn-Oho">
+            <objects>
+                <tableViewController title="Add Player" id="9BL-F2-tHo" customClass="PlayerDetailsViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="cxF-BM-Twb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Gdc-eK-dOY">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Gdc-eK-dOY" id="XZD-zf-gAd">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="9BL-F2-tHo" id="hrX-uY-iFl"/>
+                            <outlet property="delegate" destination="9BL-F2-tHo" id="sCx-w2-2LO"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Add Player" id="feU-sj-Wk4">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="iRj-EQ-Qbe">
+                            <connections>
+                                <action selector="cancel:" destination="9BL-F2-tHo" id="4SU-QS-elQ"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Done" style="done" id="5rG-zU-XIa">
+                            <connections>
+                                <action selector="done:" destination="9BL-F2-tHo" id="vl1-5j-GCe"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iey-72-Ciw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1744" y="15"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="w0p-Tt-Poj">
+            <objects>
+                <navigationController id="XpK-T9-ODV" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hxJ-at-UY8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9BL-F2-tHo" kind="relationship" relationship="rootViewController" id="OWk-2T-SGV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bSS-cz-K9w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1298" y="15"/>
         </scene>
         <!--Players-->
         <scene sceneID="ZMU-4z-AJi">
