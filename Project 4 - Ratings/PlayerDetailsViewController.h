@@ -21,5 +21,7 @@
 
 - (IBAction)cancel:(id)sender;
 - (IBAction)done:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *nameTextField;
+@property (weak, nonatomic) IBOutlet UIView *detailLabel;
 
 @end
