@@ -7,15 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Players.h"
 
 @class PlayerDetailsViewController;
 
 @protocol PlayerDetailsViewControllerDelegate <NSObject>
 - (void)playerDetailsViewControllerDidCancel:(PlayerDetailsViewController *)controller;
-- (void)playerDetailsViewControllerDidSave:(PlayerDetailsViewController *)controller;
+- (void)playerDetailsViewController:(PlayerDetailsViewController *)controller didAddPlayer:(Players *)player;
 @end
 
-@interface PlayerDetailsViewController : UITableViewController
+@interface PlayerDetailsViewController : UITableViewController <PlayerDetailsViewControllerDelegate>
 
 @property (nonatomic, weak) id <PlayerDetailsViewControllerDelegate> delegate;
 
@@ -24,4 +25,12 @@
 @property (weak, nonatomic) IBOutlet UITextField *nameTextField;
 @property (weak, nonatomic) IBOutlet UIView *detailLabel;
 
+@end
+
+
+@class Players;
+
+@protocol PlayerDetailsViewControllerDelegate <NSObject>
+- (void)playerDetailsViewControllerDidCancel:(PlayerDetailsViewController *)controller;
+- (void)playerDetailsViewController:(PlayerDetailsViewController *)controller didAddPlayer:(Players *)player;
 @end

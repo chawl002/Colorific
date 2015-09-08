@@ -16,6 +16,7 @@
 		7F6BF9971B61686100E46138 /* RatingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BF9961B61686100E46138 /* RatingsTests.m */; };
 		7F76DD031B619EB300E70600 /* PlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F76DD021B619EB300E70600 /* PlayersViewController.m */; };
 		7F76DD061B61A24B00E70600 /* Players.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F76DD051B61A24B00E70600 /* Players.m */; };
+		7F9E47151B9F8DE40089AE84 /* GamePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E47141B9F8DE40089AE84 /* GamePickerViewController.m */; };
 		7FD4C4981B98EDDA00EA88A5 /* PlayerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD4C4971B98EDDA00EA88A5 /* PlayerDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,8 @@
 		7F76DD021B619EB300E70600 /* PlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayersViewController.m; path = ../PlayersViewController.m; sourceTree = "<group>"; };
 		7F76DD041B61A24B00E70600 /* Players.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Players.h; sourceTree = "<group>"; };
 		7F76DD051B61A24B00E70600 /* Players.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Players.m; sourceTree = "<group>"; };
+		7F9E47131B9F8DE40089AE84 /* GamePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePickerViewController.h; sourceTree = "<group>"; };
+		7F9E47141B9F8DE40089AE84 /* GamePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePickerViewController.m; sourceTree = "<group>"; };
 		7FD4C4961B98EDDA00EA88A5 /* PlayerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerDetailsViewController.h; path = ../PlayerDetailsViewController.h; sourceTree = "<group>"; };
 		7FD4C4971B98EDDA00EA88A5 /* PlayerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerDetailsViewController.m; path = ../PlayerDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +104,8 @@
 				7F6BF9811B61686100E46138 /* ViewController.h */,
 				7F6BF9821B61686100E46138 /* ViewController.m */,
 				7F6BF9841B61686100E46138 /* Main.storyboard */,
+				7F9E47131B9F8DE40089AE84 /* GamePickerViewController.h */,
+				7F9E47141B9F8DE40089AE84 /* GamePickerViewController.m */,
 				7F6BF9871B61686100E46138 /* Images.xcassets */,
 				7F6BF9891B61686100E46138 /* LaunchScreen.xib */,
 				7F6BF97A1B61686100E46138 /* Supporting Files */,
@@ -233,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F9E47151B9F8DE40089AE84 /* GamePickerViewController.m in Sources */,
 				7F6BF9831B61686100E46138 /* ViewController.m in Sources */,
 				7F76DD061B61A24B00E70600 /* Players.m in Sources */,
 				7FD4C4981B98EDDA00EA88A5 /* PlayerDetailsViewController.m in Sources */,
